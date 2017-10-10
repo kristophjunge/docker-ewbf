@@ -4,11 +4,11 @@ services:
   ewbf:
     container_name: ewbf
     build: .
-  environment:
-    SERVER: "${SERVER}"
-    ADDRESS: "${ADDRESS}"
-    WORKER: "${WORKER}"
-    PASS: "${PASS}"
-    PORT: "${PORT}"
-  ports:
-    - "42000:42000"
+    environment:
+      SERVER: "${SERVER}"
+      ADDRESS: "${ADDRESS}"
+      WORKER: "${WORKER}"
+      PASS: "${PASS}"
+      PORT: "${PORT}"
+    ports:
+      - "42000:42000"
