@@ -5,6 +5,7 @@ services:
     container_name: ewbf
     build: .
     environment:
+      STARTUP_DELAY: "${STARTUP_DELAY}"
       SERVER: "${SERVER}"
       ADDRESS: "${ADDRESS}"
       WORKER: "${WORKER}"
