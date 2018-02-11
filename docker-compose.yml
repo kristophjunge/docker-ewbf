@@ -13,3 +13,5 @@ services:
       PORT: "${PORT}"
     ports:
       - "42000:42000"
+    volumes:
+      - "/var/log/ewbf.log:/var/log/ewbf.log"
