@@ -8,4 +8,4 @@ sleep ${STARTUP_DELAY}
 
 echo "Starting miner"
 
-./miner --server ${SERVER} --user ${ADDRESS}.${WORKER} --pass ${PASS} --port ${PORT} --api 0.0.0.0:42000 --logfile /var/log/ewbf.log
+./miner --server ${SERVER} --user ${ADDRESS}.${WORKER} --pass ${PASS} --port ${PORT} --api 0.0.0.0:42000
